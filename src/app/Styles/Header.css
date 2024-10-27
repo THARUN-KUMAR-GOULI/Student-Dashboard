@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+}
+
+.image {
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    color: white;
+    text-align: center;
+    background-color: #6669FE;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-class {
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width:330px) {
+    .header {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .name-class {
+        display: none;
+    }
+}

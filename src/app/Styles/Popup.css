@@ -1,0 +1,258 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    border-radius: 8px;
+    position: relative;
+    width: 88%;
+    height: 88%;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.head {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    height: 12%;
+}
+
+.video-name {
+    width: 95%;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+.close-btn {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.video-class-container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.video-class-image {
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+}
+
+.video-class-image img {
+    display: block;
+}
+
+.video-class-image::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    pointer-events: none;
+}
+
+.progress-container {
+    position: absolute;
+    margin-top: 10px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-stamp {
+    position: absolute;
+    top: -25px;
+    right: 15px;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    position: relative;
+    width: 98%;
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.progress-bar-inner {
+    width: 30%;
+    height: 100%;
+    background-color: #E66DFF;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.play-controls,
+.vol-frame {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width:330px) {
+
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .popup-content {
+        background: white;
+        border-radius: 8px;
+        position: relative;
+        width: 88%;
+        height: 57%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .head {
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        height: 14%;
+    }
+
+    .video-name {
+        width: 95%;
+        text-align: center;
+        align-content: center;
+        color: white;
+        font-size: small;
+    }
+
+    .close-btn {
+        background-color: blue;
+        cursor: pointer;
+        width: 35;
+        height: 35;
+    }
+
+    .video-class-container {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .video-class-image {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .video-class-image img {
+        display: block;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .video-class-image::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 2px;
+        height: 40px;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+        pointer-events: none;
+    }
+
+    .progress-container {
+        position: absolute;
+        margin-top: 10px;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time-stamp {
+        position: absolute;
+        top: -25px;
+        right: 15px;
+        font-size: 13px;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .progress-bar {
+        position: relative;
+        width: 98%;
+        height: 2px;
+        background-color: #ddd;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        overflow: hidden;
+    }
+
+    .progress-bar-inner {
+        width: 30%;
+        height: 100%;
+        background-color: #E66DFF;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .play-controls,
+    .vol-frame {
+        display: flex;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
