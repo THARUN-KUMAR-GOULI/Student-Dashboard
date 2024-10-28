@@ -102,14 +102,12 @@ const SectionRight = () => {
                     </div>
 
 
-
-
                     <div className='videos'>
                         <div className='video-container'>
                             <div className='content'>
                                 <div>
                                     <small style={{ fontSize: "10px", color: "#4749B3", font: "Outfit" }}>Class 7 Math</small>
-                                    <p className='title-text' style={{ fontSize: "15px", fontWeight: "bold" }}>Algebric Equations</p>
+                                    <p className='title-text' style={{ fontSize: "15px", fontWeight: "bold" }}>Differential Mathematics</p>
                                 </div>
 
                                 <div> <small style={{ fontSize: "8px", color: "#727272" }}>24th October,2024</small></div>
@@ -203,7 +201,7 @@ const SectionRight = () => {
                             <div className='content'>
                                 <div>
                                     <small style={{ fontSize: "10px", color: "#4749B3", font: "Outfit" }}>Class 7 Math</small>
-                                    <p className='title-text' style={{ fontSize: "15px", fontWeight: "bold" }}>Algebric Equations</p>
+                                    <p className='title-text' style={{ fontSize: "15px", fontWeight: "bold" }}>Trignometry 101</p>
                                 </div>
 
                                 <div> <small style={{ fontSize: "8px", color: "#727272" }}>24th October,2024</small></div>

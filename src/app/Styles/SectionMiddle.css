@@ -106,6 +106,7 @@
     background: #6669FE;
     display: flex;
     color: white;
+    cursor: pointer;
 }
 
 .contact {
@@ -230,6 +231,215 @@
         flex-direction: row;
         justify-content: space-around;
         background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 25%, transparent 20%, transparent 100%);
+    }
+
+    .contact img {
+        margin-top: 10px;
+    }
+
+    .contact small {
+        display: none;
+    }
+
+    .contact h4 {
+        margin-top: 9px;
+    }
+}
+
+
+
+@media screen and (max-width: 380px) and (min-width: 330px) {
+    body {
+        width: 100%;
+    }
+
+    .sec-middle {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        display: flex;
+
+    }
+
+    .sec-middle h4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .canvas-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+    }
+
+    .canvas {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 30%, transparent 20%, transparent 100%);
+    }
+
+    .canvas img {
+        margin-top: 10px;
+    }
+
+    .canvas h4 {
+        margin-top: 9px;
+    }
+
+    .canvas small {
+        display: none;
+    }
+
+
+
+
+    .class-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+    }
+
+    .class {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 26%, transparent 20%, transparent 100%);
+    }
+
+    .class img {
+        margin-top: 10px;
+    }
+
+    .class small {
+        display: none;
+    }
+
+    .class h4 {
+        margin-top: 9px;
+    }
+
+
+    .contact-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+    }
+
+    .contact {
+        width: 93%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 25%, transparent 20%, transparent 100%);
+    }
+
+    .contact img {
+        margin-top: 10px;
+    }
+
+    .contact small {
+        display: none;
+    }
+
+    .contact h4 {
+        margin-top: 9px;
+    }
+}
+
+
+@media screen and (max-width: 430px) and (min-width: 329px) {
+    body {
+        width: 100%;
+    }
+
+    .sec-middle {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        display: flex;
+        height: 45vh;
+
+    }
+
+    .sec-middle h4 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .canvas-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+    }
+
+    .canvas {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 30%, transparent 20%, transparent 100%);
+    }
+
+    .canvas img {
+        margin-top: 10px;
+    }
+
+    .canvas h4 {
+        margin-top: 9px;
+    }
+
+    .canvas small {
+        display: none;
+    }
+
+
+
+
+    .class-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+    }
+
+    .class {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 26%, transparent 20%, transparent 100%);
+    }
+
+    .class img {
+        margin-top: 10px;
+    }
+
+    .class small {
+        display: none;
+    }
+
+    .class h4 {
+        margin-top: 9px;
+    }
+
+
+    .contact-container {
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+
+    }
+
+    .contact {
+        width: 93%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 25%, transparent 20%, transparent 100%);
+        cursor: pointer;
     }
 
     .contact img {

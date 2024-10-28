@@ -68,7 +68,7 @@ const SectionLeft = () => {
                             <div>
                                 <small style={{ fontSize: "10px", opacity: "50%" }}>Class 7, Science | Live Class</small>
 
-                                <p style={{ fontSize: "12px" }}>Tuesday, 5:00 - 5:50 PM</p>
+                                <p style={{ fontSize: "12px", color: "#4749B3" }}>Tuesday, 5:00 - 5:50 PM</p>
                             </div>
 
                         </div>
@@ -92,7 +92,7 @@ const SectionLeft = () => {
                             <div>
                                 <small style={{ fontSize: "10px", opacity: "50%" }}>Class 7, Science | Live Class</small>
 
-                                <p style={{ fontSize: "12px" }}>Tuesday, 5:00 - 5:50 PM</p>
+                                <p style={{ fontSize: "12px", color: "white" }}>Tuesday, 5:00 - 5:50 PM</p>
                             </div>
 
                         </div>
