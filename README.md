@@ -13,7 +13,6 @@ __Schedule Display :__ Lists upcoming classes with dates nd times.
 __Responsive Design :__ Optimized for mobile and desktop.
 
 
-
 # Technologies Used
 
 

@@ -202,10 +202,8 @@
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-
         gap: 10px;
         padding-top: 130px;
-        /* padding-bottom: 30px; */
 
     }
 
